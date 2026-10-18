@@ -1,0 +1,35 @@
+{{- /* Custom home hero, replaces PaperMod's home_info. */ -}}
+<section class="home-hero first-entry">
+    <div class="hero-grid">
+        <div>
+            <span class="hero-level">LVL 12 · JAVA DEV</span>
+            <h1 class="hero-title">Hi, I'm <span>Vitalii</span> 👋</h1>
+            <p class="hero-text">
+                I'm a Java developer who loves new features and new trends.
+                I learn something new, try it for real, and write about it here.
+                When I'm not writing backend code, I make games.
+            </p>
+            <div class="hero-chips">
+                <a class="chip" href="{{ "tags/java/" | absLangURL }}">☕ Java</a>
+                <a class="chip" href="{{ "tags/claude/" | absLangURL }}">🤖 AI</a>
+                <a class="chip" href="https://play.google.com/store/apps/details?id=com.sukachvv" target="_blank" rel="noopener">🎮 Games</a>
+                <span class="chip chip--ua">🇺🇦 Ukraine</span>
+                <span class="chip chip--uk">🇬🇧 UK</span>
+            </div>
+            {{ partial "social_icons.html" (dict "align" "left") }}
+        </div>
+        <div class="code-card" aria-hidden="true">
+            <div class="code-card__bar"><i></i><i></i><i></i><span>Vitalii.java</span></div>
+<pre><span class="k">var</span> me = <span class="k">new</span> <span class="t">Developer</span>(<span class="s">"Vitalii"</span>);
+
+<span class="c">// favourite loop</span>
+<span class="k">while</span> (me.<span class="m">isCurious</span>()) {
+    me.<span class="m">learn</span>(<span class="t">Trends</span>.<span class="m">latest</span>());
+    me.<span class="m">tryWith</span>(<span class="t">Java</span>, <span class="t">AI</span>);
+    me.<span class="m">write</span>(<span class="t">Article</span>.<span class="m">about</span>(it));
+}
+
+me.<span class="m">play</span>(<span class="t">Game</span>.<span class="m">myOwn</span>()); <span class="cursor"></span></pre>
+        </div>
+    </div>
+</section>

@@ -32,7 +32,10 @@ enableRobotsTXT = true
     favicon32x32 = '/favicon-32x32.png'
     apple_touch_icon = '/apple-touch-icon.png'
     safari_pinned_tab = '/safari-pinned-tab.svg'
-    theme_color = '#1e293b'
+    theme_color = '#0057b7'
+
+  [params.footer]
+    text = 'Made with ☕ · 🇺🇦 & 🇬🇧'
 
   [params.homeInfoParams]
     Title = 'Hi, I am Vitalii'

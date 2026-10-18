@@ -6,8 +6,6 @@ tags: ["ai", "java", "claude", "model-context-protocol", "spring-boot"]
 canonicalURL: "https://medium.com/@sukach.v.v/building-an-mcp-server-in-java-with-spring-ai-let-claude-code-use-your-database-without-seeing-a-a2324bff0bb6"
 ---
 
-### Building an MCP Server in Java with Spring AI: Let Claude Code Use Your Database Without Seeing a Password
-
 *Four annotated methods, one security config, and no JSON-RPC code of your own.*
 
 ![](image-01.png)
