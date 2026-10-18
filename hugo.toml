@@ -38,6 +38,10 @@ enableRobotsTXT = true
     name = 'github'
     url = 'https://github.com/SukachVitally'
 
+  [[params.socialIcons]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/vitalii-sukach/'
+
 [[menu.main]]
   identifier = 'posts'
   name = 'Posts'
@@ -49,6 +53,12 @@ enableRobotsTXT = true
   name = 'Tags'
   url = '/tags/'
   weight = 20
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'About'
+  url = '/about/'
+  weight = 30
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
