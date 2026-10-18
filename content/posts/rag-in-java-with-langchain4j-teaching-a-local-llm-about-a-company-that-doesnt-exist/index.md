@@ -141,7 +141,7 @@ The demo uses four building blocks, plus one helper that glues three of them tog
 
 - **DocumentSplitter** cuts text into chunks.
 - **EmbeddingModel** turns text into a vector. Here it's OllamaEmbeddingModel.
-- **EmbeddingStore<TextSegment>** saves vectors and finds the nearest ones. Here it's PgVectorEmbeddingStore.
+- **`EmbeddingStore<TextSegment>`** saves vectors and finds the nearest ones. Here it's PgVectorEmbeddingStore.
 - **ChatModel** sends a prompt and gets an answer. Here it's OllamaChatModel.
 - **EmbeddingStoreIngestor** runs split → embed → store in one call.
 

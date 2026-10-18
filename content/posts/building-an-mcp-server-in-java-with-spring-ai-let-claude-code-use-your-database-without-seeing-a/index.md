@@ -216,7 +216,7 @@ Use enums for anything with a fixed set of values. You get validation and docume
 
 ### Return values and errors
 
-You return a normal Java object, and Spring AI serializes it to JSON as the tool result. TaskDto and List<TaskDto> just work.
+You return a normal Java object, and Spring AI serializes it to JSON as the tool result. `TaskDto` and `List<TaskDto>` just work.
 
 Exceptions work too. When TaskService throws TaskNotFoundException, the client doesn't get a stack trace or a broken JSON-RPC response. It gets a tool result with isError: true and the exception message as the text:
 

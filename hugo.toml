@@ -1,10 +1,54 @@
 baseURL = 'https://sukachvitally.github.io/'
 languageCode = 'en-us'
-title = 'My Blog'
-# theme = 'your-theme-name'
+title = 'Vitalii Sukach'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
 
 [pagination]
   pagerSize = 10
 
 [markup.goldmark.renderer]
   unsafe = false
+
+[markup.highlight]
+  noClasses = false
+
+[params]
+  author = 'Vitalii Sukach'
+  description = 'Articles about Java, PostgreSQL and AI tooling'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = 'Hi, I am Vitalii'
+    Content = 'Articles about Java, PostgreSQL and AI tooling.'
+
+  [[params.socialIcons]]
+    name = 'medium'
+    url = 'https://medium.com/@sukach.v.v'
+
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/SukachVitally'
+
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Tags'
+  url = '/tags/'
+  weight = 20
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
