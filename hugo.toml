@@ -19,6 +19,7 @@ enableRobotsTXT = true
   description = 'Articles about Java, PostgreSQL and AI tooling'
   defaultTheme = 'auto'
   ShowReadingTime = true
+  ShowFullTextinRSS = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -70,6 +71,9 @@ enableRobotsTXT = true
   name = 'About'
   url = '/about/'
   weight = 30
+
+[services.rss]
+  limit = -1
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
