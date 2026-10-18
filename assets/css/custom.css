@@ -36,6 +36,43 @@
     --border: #1e2a44;
 }
 
+/* ---------- Page background ---------- */
+
+/* pixel-art scene (coffee steam -> bits -> neural net, robot at a monitor), fixed behind the page */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: url("/images/bg-light.png") center bottom / cover no-repeat;
+    image-rendering: pixelated;
+}
+
+:root[data-theme="dark"] body::after {
+    background-image: url("/images/bg-dark.png");
+}
+
+/* articles get a soft backing so text stays readable over the scene */
+.post-single {
+    background: color-mix(in srgb, var(--theme) 88%, transparent);
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-top: var(--gap);
+}
+
+.page-header,
+.footer {
+    background: color-mix(in srgb, var(--theme) 80%, transparent);
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .post-single {
+        padding: 12px 14px;
+    }
+}
+
 /* Ukrainian flag stripe across the top of every page */
 body::before {
     content: "";
