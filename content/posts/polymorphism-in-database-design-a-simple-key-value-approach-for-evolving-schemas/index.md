@@ -3,7 +3,6 @@ title: "Polymorphism in Database Design: A Simple Key–Value Approach for Evolv
 date: 2026-04-06T10:49:54.637+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/polymorphism-in-database-design-a-simple-key-value-approach-for-evolving-schemas-a00666f73933"
 ---
 
 ![](image-01.png)

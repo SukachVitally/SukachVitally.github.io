@@ -3,7 +3,6 @@ title: "MVCC - invisible superpower inside every query"
 date: 2026-05-08T19:51:24.915+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/mvcc-invisible-superpower-inside-every-query-706791482b23"
 ---
 
 ![](image-01.png)

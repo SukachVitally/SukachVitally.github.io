@@ -3,7 +3,6 @@ title: "Your DELETE + INSERT Is Burning PostgreSQL’s CPU. Here’s What’s Ac
 date: 2026-08-17T18:56:51+00:00
 draft: false
 tags: ["backend-development", "software-engineering", "database", "programming", "postgresql"]
-canonicalURL: "https://medium.com/@sukach.v.v/your-delete-insert-is-burning-postgresqls-cpu-here-s-what-s-actually-happening-on-the-page-0fa0d86ef21b"
 ---
 
 *A deep dive into MVCC, heap pages, vacuum, and what to do when you have billions of rows to update.*

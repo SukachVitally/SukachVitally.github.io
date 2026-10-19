@@ -3,7 +3,6 @@ title: "Claude Code: The Complete Guide Nobody Wrote"
 date: 2026-06-02T17:21:27+00:00
 draft: false
 tags: ["claude", "mcp-server", "developer-tools", "claude-code", "claude-plugin"]
-canonicalURL: "https://medium.com/@sukach.v.v/claude-code-the-complete-guide-nobody-wrote-b44ae909e06a"
 ---
 
 ![](image-01.png)

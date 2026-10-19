@@ -3,7 +3,6 @@ title: "Business Flow as a Part of Technical Documentation: Why Tech Leads Shoul
 date: 2026-04-14T17:40:24.175+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/business-flow-as-a-part-of-technical-documentation-why-tech-leads-should-own-it-838d2ba396b6"
 ---
 
 ![](image-01.png)

@@ -3,7 +3,6 @@ title: "SPA SEO Routing with Kubernetes Ingress Controller"
 date: 2024-02-02T12:50:25.629+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/spa-seo-routing-with-kubernetes-ingress-controller-d4ad61d9e07e"
 ---
 
 ![](image-01.png)

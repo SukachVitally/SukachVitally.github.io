@@ -3,7 +3,6 @@ title: "MCP: The Protocol That Finally Taught AI to Stop Being Useless"
 date: 2026-06-15T20:00:06+00:00
 draft: false
 tags: ["ai-agent", "json-rpc", "mcp-server", "claude", "mcp-protocol"]
-canonicalURL: "https://medium.com/@sukach.v.v/mcp-the-protocol-that-finally-taught-ai-to-stop-being-useless-759de3745b79"
 ---
 
 *A beginner’s guide to Model Context Protocol — the thing that lets your AI assistant actually do stuff, not just talk about doing stuff.*

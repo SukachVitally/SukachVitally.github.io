@@ -3,7 +3,6 @@ title: "Debugging Postgres: The System Tables That Actually Tell You What’s Wr
 date: 2026-08-02T08:37:40+00:00
 draft: false
 tags: ["debugging", "query-optimization", "postgresql", "backend-engineering", "database-migration"]
-canonicalURL: "https://medium.com/@sukach.v.v/debugging-postgres-the-system-tables-that-actually-tell-you-whats-wrong-c3a05d2420e4"
 ---
 
 ![](image-01.png)

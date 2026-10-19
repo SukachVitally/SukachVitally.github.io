@@ -3,7 +3,6 @@ title: "5 Spring Boot Mistakes I See in Every Codebase"
 date: 2026-05-24T14:35:12.007+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/5-spring-boot-mistakes-i-see-in-every-codebase-ff25a802ebb7"
 ---
 
 *And why senior developers keep making them*

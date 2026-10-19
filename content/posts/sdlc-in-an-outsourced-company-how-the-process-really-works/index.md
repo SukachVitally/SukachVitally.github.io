@@ -3,7 +3,6 @@ title: "SDLC in an Outsourced Company: How the Process Really Works"
 date: 2026-05-10T18:02:25.958+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/sdlc-in-an-outsourced-company-how-the-process-really-works-693a3197c013"
 ---
 
 ![](image-01.png)

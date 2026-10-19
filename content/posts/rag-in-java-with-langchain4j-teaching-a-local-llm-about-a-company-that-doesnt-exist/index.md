@@ -3,7 +3,6 @@ title: "RAG in Java with LangChain4j: Teaching a Local LLM About a Company That 
 date: 2026-10-17T13:01:45+00:00
 draft: false
 tags: ["ollama", "rags", "langchain4j", "java", "llm"]
-canonicalURL: "https://medium.com/@sukach.v.v/rag-in-java-with-langchain4j-teaching-a-local-llm-about-a-company-that-doesnt-exist-08f430809344"
 ---
 
 *Chunks, vectors, a bit of geometry, and no magic. Everything runs on your laptop.*

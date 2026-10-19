@@ -3,7 +3,6 @@ title: "The Java Memory Model, Explained Without the Headache"
 date: 2026-09-03T16:18:18+00:00
 draft: false
 tags: ["java", "multithreading", "jvm", "programming", "java-concurrency"]
-canonicalURL: "https://medium.com/@sukach.v.v/the-java-memory-model-explained-without-the-headache-03337f3f1ff5"
 ---
 
 #### What actually happens to your data between two threads — and the small set of tools that let you control it

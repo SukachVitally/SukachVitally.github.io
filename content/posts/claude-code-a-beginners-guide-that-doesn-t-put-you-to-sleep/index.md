@@ -3,7 +3,6 @@ title: "Claude Code: A Beginner’s Guide That Doesn’t Put You to Sleep"
 date: 2026-05-27T17:33:07.444+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/claude-code-a-beginners-guide-that-doesn-t-put-you-to-sleep-8d602a78e1cb"
 ---
 
 For developers who want an AI in their terminal and still have no idea what CLAUDE.md is. You’ve come to the right place.

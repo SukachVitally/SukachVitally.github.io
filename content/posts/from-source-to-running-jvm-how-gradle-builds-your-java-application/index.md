@@ -3,7 +3,6 @@ title: "From Source to Running JVM: How Gradle Builds Your Java Application"
 date: 2026-07-19T11:14:16+00:00
 draft: false
 tags: ["software-development", "programming", "java", "jvm", "gradle"]
-canonicalURL: "https://medium.com/@sukach.v.v/from-source-to-running-jvm-how-gradle-builds-your-java-application-0a632c84de71"
 ---
 
 Build phases, task graphs, dependency resolution, and what actually happens when the JVM opens your JAR

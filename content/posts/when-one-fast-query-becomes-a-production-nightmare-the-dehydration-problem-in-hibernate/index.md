@@ -3,7 +3,6 @@ title: "When One “Fast” Query Becomes a Production Nightmare: The Dehydratio
 date: 2026-04-17T16:36:30.189+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/when-one-fast-query-becomes-a-production-nightmare-the-dehydration-problem-in-hibernate-26d349806499"
 ---
 
 ![](image-01.png)

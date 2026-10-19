@@ -3,7 +3,6 @@ title: "Apache Avro without the Confusion"
 date: 2026-05-01T13:24:41.818+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/apache-avro-without-the-confusion-6e18d93b1ba4"
 ---
 
 ![](image-01.png)

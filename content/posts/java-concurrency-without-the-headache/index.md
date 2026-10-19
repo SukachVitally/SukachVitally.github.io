@@ -3,7 +3,6 @@ title: "Java Concurrency without the headache"
 date: 2026-04-25T15:45:30.845+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/java-concurrency-without-the-headache-8b2c5e699a8a"
 ---
 
 ![](image-01.png)

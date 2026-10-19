@@ -3,7 +3,6 @@ title: "Claude Skills: The Reusable Knowledge Modules That Make AI Truly Powerfu
 date: 2026-06-21T15:26:54+00:00
 draft: false
 tags: ["claude-skills", "prompt-engineering", "anthropic-claude", "ai-workflow-automation", "claude-code"]
-canonicalURL: "https://medium.com/@sukach.v.v/claude-skills-the-reusable-knowledge-modules-that-make-ai-truly-powerful-622769100253"
 ---
 
 *How Claude loads specialised instructions on demand — and how you can write your own to transform workflows forever.*

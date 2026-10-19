@@ -3,7 +3,6 @@ title: "From Legacy Chaos to Sustainable Architecture: A Step‑by‑Step Refact
 date: 2026-04-12T13:54:17.550+00:00
 draft: false
 tags: []
-canonicalURL: "https://medium.com/@sukach.v.v/from-legacy-chaos-to-sustainable-architecture-a-step-by-step-refactoring-strategy-31f3dada23dc"
 ---
 
 ![](image-01.png)
