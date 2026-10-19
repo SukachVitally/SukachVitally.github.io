@@ -1,6 +1,7 @@
 ---
 title: "From Source to Running JVM: How Gradle Builds Your Java Application"
 date: 2026-07-19T11:14:16+00:00
+url: "/posts/from-source-to-running-jvm-how-gradle-builds-your-java-application/"
 draft: false
 tags: ["software-development", "programming", "java", "jvm", "gradle"]
 ---

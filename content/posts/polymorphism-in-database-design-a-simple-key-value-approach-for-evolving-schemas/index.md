@@ -1,6 +1,7 @@
 ---
 title: "Polymorphism in Database Design: A Simple Key–Value Approach for Evolving Schemas"
 date: 2026-04-06T10:49:54.637+00:00
+url: "/posts/polymorphism-in-database-design-a-simple-key-value-approach-for-evolving-schemas/"
 draft: false
 tags: []
 ---

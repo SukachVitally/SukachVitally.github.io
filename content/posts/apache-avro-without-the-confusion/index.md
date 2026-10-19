@@ -1,6 +1,7 @@
 ---
 title: "Apache Avro without the Confusion"
 date: 2026-05-01T13:24:41.818+00:00
+url: "/posts/apache-avro-without-the-confusion/"
 draft: false
 tags: []
 ---

@@ -1,6 +1,7 @@
 ---
 title: "MVCC - invisible superpower inside every query"
 date: 2026-05-08T19:51:24.915+00:00
+url: "/posts/mvcc-invisible-superpower-inside-every-query/"
 draft: false
 tags: []
 ---

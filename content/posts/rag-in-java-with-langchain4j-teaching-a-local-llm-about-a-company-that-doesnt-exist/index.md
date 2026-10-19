@@ -1,6 +1,7 @@
 ---
 title: "RAG in Java with LangChain4j: Teaching a Local LLM About a Company That Doesn’t Exist"
 date: 2026-10-17T13:01:45+00:00
+url: "/posts/rag-in-java-with-langchain4j-teaching-a-local-llm-about-a-company-that-doesnt-exist/"
 draft: false
 tags: ["ollama", "rags", "langchain4j", "java", "llm"]
 ---

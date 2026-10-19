@@ -1,6 +1,7 @@
 ---
 title: "Business Flow as a Part of Technical Documentation: Why Tech Leads Should Own It"
 date: 2026-04-14T17:40:24.175+00:00
+url: "/posts/business-flow-as-a-part-of-technical-documentation-why-tech-leads-should-own-it/"
 draft: false
 tags: []
 ---

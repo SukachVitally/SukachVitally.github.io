@@ -1,6 +1,7 @@
 ---
 title: "Claude Skills: The Reusable Knowledge Modules That Make AI Truly Powerful"
 date: 2026-06-21T15:26:54+00:00
+url: "/posts/claude-skills-the-reusable-knowledge-modules-that-make-ai-truly-powerful/"
 draft: false
 tags: ["claude-skills", "prompt-engineering", "anthropic-claude", "ai-workflow-automation", "claude-code"]
 ---

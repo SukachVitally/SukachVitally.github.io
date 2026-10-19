@@ -1,6 +1,7 @@
 ---
 title: "Java Concurrency without the headache"
 date: 2026-04-25T15:45:30.845+00:00
+url: "/posts/java-concurrency-without-the-headache/"
 draft: false
 tags: []
 ---

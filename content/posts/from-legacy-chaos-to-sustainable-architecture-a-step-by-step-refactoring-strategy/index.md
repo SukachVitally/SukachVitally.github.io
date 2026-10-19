@@ -1,6 +1,7 @@
 ---
 title: "From Legacy Chaos to Sustainable Architecture: A Step‑by‑Step Refactoring Strategy"
 date: 2026-04-12T13:54:17.550+00:00
+url: "/posts/from-legacy-chaos-to-sustainable-architecture-a-step-by-step-refactoring-strategy/"
 draft: false
 tags: []
 ---

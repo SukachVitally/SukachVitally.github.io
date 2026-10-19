@@ -1,6 +1,7 @@
 ---
 title: "5 Spring Boot Mistakes I See in Every Codebase"
 date: 2026-05-24T14:35:12.007+00:00
+url: "/posts/5-spring-boot-mistakes-i-see-in-every-codebase/"
 draft: false
 tags: []
 ---

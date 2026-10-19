@@ -1,6 +1,7 @@
 ---
 title: "MCP: The Protocol That Finally Taught AI to Stop Being Useless"
 date: 2026-06-15T20:00:06+00:00
+url: "/posts/mcp-the-protocol-that-finally-taught-ai-to-stop-being-useless/"
 draft: false
 tags: ["ai-agent", "json-rpc", "mcp-server", "claude", "mcp-protocol"]
 ---

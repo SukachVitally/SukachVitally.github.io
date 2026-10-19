@@ -1,6 +1,7 @@
 ---
 title: "Debugging Postgres: The System Tables That Actually Tell You What’s Wrong"
 date: 2026-08-02T08:37:40+00:00
+url: "/posts/debugging-postgres-the-system-tables-that-actually-tell-you-whats-wrong/"
 draft: false
 tags: ["debugging", "query-optimization", "postgresql", "backend-engineering", "database-migration"]
 ---

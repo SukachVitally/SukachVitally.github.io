@@ -1,6 +1,7 @@
 ---
 title: "When One “Fast” Query Becomes a Production Nightmare: The Dehydration Problem in Hibernate"
 date: 2026-04-17T16:36:30.189+00:00
+url: "/posts/when-one-fast-query-becomes-a-production-nightmare-the-dehydration-problem-in-hibernate/"
 draft: false
 tags: []
 ---

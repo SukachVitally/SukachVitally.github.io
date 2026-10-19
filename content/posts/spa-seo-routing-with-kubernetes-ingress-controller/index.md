@@ -1,6 +1,7 @@
 ---
 title: "SPA SEO Routing with Kubernetes Ingress Controller"
 date: 2024-02-02T12:50:25.629+00:00
+url: "/posts/spa-seo-routing-with-kubernetes-ingress-controller/"
 draft: false
 tags: []
 ---

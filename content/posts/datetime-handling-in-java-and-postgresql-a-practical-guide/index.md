@@ -1,6 +1,7 @@
 ---
 title: "DateTime Handling in Java and PostgreSQL: A Practical Guide"
 date: 2026-08-15T14:24:50+00:00
+url: "/posts/datetime-handling-in-java-and-postgresql-a-practical-guide/"
 draft: false
 tags: ["java", "hibernate", "postgresql", "timezone", "date"]
 ---

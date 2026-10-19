@@ -1,6 +1,7 @@
 ---
 title: "Claude Code: A Beginner’s Guide That Doesn’t Put You to Sleep"
 date: 2026-05-27T17:33:07.444+00:00
+url: "/posts/claude-code-a-beginners-guide-that-doesn-t-put-you-to-sleep/"
 draft: false
 tags: []
 ---

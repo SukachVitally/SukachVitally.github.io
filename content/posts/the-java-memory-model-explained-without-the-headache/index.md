@@ -1,6 +1,7 @@
 ---
 title: "The Java Memory Model, Explained Without the Headache"
 date: 2026-09-03T16:18:18+00:00
+url: "/posts/the-java-memory-model-explained-without-the-headache/"
 draft: false
 tags: ["java", "multithreading", "jvm", "programming", "java-concurrency"]
 ---
