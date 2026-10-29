@@ -68,6 +68,7 @@ WHERE c.contype = 'f'
       SELECT 1 FROM pg_index i
       WHERE i.indrelid = c.conrelid
         AND i.indkey[0] = c.conkey[1]
+        AND i.indisvalid
   )
 ORDER BY 1;
 ```
