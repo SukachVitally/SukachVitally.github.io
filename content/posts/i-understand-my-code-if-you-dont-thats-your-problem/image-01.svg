@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Chalkboard SE','Comic Sans MS','Marker Felt',sans-serif">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3550"/>
+      <stop offset="1" stop-color="#1b2236"/>
+    </linearGradient>
+    <clipPath id="screen"><rect x="578" y="268" width="364" height="244" rx="6"/></clipPath>
+  </defs>
+  <rect width="1200" height="800" fill="url(#wall)"/>
+  <rect y="640" width="1200" height="160" fill="#3a2f2a"/>
+  <rect y="630" width="1200" height="20" fill="#5b4a40"/>
+
+  <!-- colleagues peeking -->
+  <g>
+    <circle cx="1040" cy="300" r="55" fill="#e8b88f" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="1022" cy="292" r="8" fill="#1a1a1a"/>
+    <circle cx="1060" cy="292" r="8" fill="#1a1a1a"/>
+    <ellipse cx="1041" cy="325" rx="10" ry="13" fill="#1a1a1a"/>
+    <text x="1095" y="240" font-size="56" font-weight="700" fill="#ffd54a">?</text>
+    <circle cx="1120" cy="420" r="50" fill="#c98e65" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="1104" cy="412" r="7" fill="#1a1a1a"/>
+    <circle cx="1138" cy="412" r="7" fill="#1a1a1a"/>
+    <path d="M1105 445 q15 -10 30 0" stroke="#1a1a1a" stroke-width="4" fill="none"/>
+    <text x="1150" y="360" font-size="48" font-weight="700" fill="#ffd54a">??</text>
+  </g>
+
+  <!-- desk -->
+  <rect x="380" y="560" width="620" height="26" rx="6" fill="#8a5a3b" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="410" y="586" width="22" height="120" fill="#6b4329" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="950" y="586" width="22" height="120" fill="#6b4329" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- monitor with spaghetti -->
+  <rect x="560" y="250" width="400" height="280" rx="14" fill="#111" stroke="#1a1a1a" stroke-width="5"/>
+  <rect x="578" y="268" width="364" height="244" rx="6" fill="#1e2a1e"/>
+  <g fill="none" stroke-width="5" stroke-linecap="round" clip-path="url(#screen)">
+    <path d="M590 300 C700 260, 640 420, 760 340 S 900 280, 800 450 S 620 470, 700 380 S 930 470, 930 300" stroke="#f2c14e"/>
+    <path d="M600 480 C640 300, 800 520, 840 300 S 640 280, 720 470 S 900 380, 920 490" stroke="#e8a33b"/>
+    <path d="M620 330 C760 520, 880 260, 900 400 S 700 300, 650 430 S 800 480, 880 330" stroke="#ffe08a"/>
+    <path d="M760 290 q60 60 0 120 q-60 60 0 90" stroke="#d98c2b"/>
+    <circle cx="760" cy="390" r="16" fill="#b3261e" stroke="none"/>
+    <circle cx="840" cy="440" r="13" fill="#b3261e" stroke="none"/>
+  </g>
+  <text x="590" y="295" font-family="Menlo,monospace" font-size="15" fill="#7ee787">placeBet() // 412 lines</text>
+  <rect x="740" y="530" width="40" height="30" fill="#222"/>
+
+  <!-- mug -->
+  <g transform="translate(450 470)">
+    <rect width="80" height="92" rx="8" fill="#fafafa" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M80 22 q34 0 34 30 q0 30 -34 30" fill="none" stroke="#1a1a1a" stroke-width="7"/>
+    <text x="40" y="40" text-anchor="middle" font-size="13" fill="#1a1a1a">WORKS ON</text>
+    <text x="40" y="58" text-anchor="middle" font-size="13" fill="#1a1a1a">MY</text>
+    <text x="40" y="76" text-anchor="middle" font-size="13" fill="#1a1a1a">MACHINE</text>
+    <path d="M22 -10 q8 -20 0 -40 M48 -10 q8 -20 0 -40" stroke="#c9d1e6" stroke-width="4" fill="none" opacity="0.7"/>
+  </g>
+
+  <!-- Timofei -->
+  <g transform="translate(300 330)">
+    <!-- chair -->
+    <rect x="-110" y="40" width="220" height="250" rx="30" fill="#222" stroke="#1a1a1a" stroke-width="4"/>
+    <!-- hoodie body -->
+    <path d="M-120 300 C-120 150, -80 90, 0 90 C80 90, 120 150, 120 300 Z" fill="#0057b7" stroke="#1a1a1a" stroke-width="5"/>
+    <!-- crossed arms -->
+    <path d="M-95 200 C-40 240, 40 240, 95 200 L95 240 C40 275, -40 275, -95 240 Z" fill="#0a4a9a" stroke="#1a1a1a" stroke-width="5"/>
+    <circle cx="-92" cy="220" r="22" fill="#f2c39b" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="92" cy="220" r="22" fill="#f2c39b" stroke="#1a1a1a" stroke-width="4"/>
+    <text x="0" y="170" text-anchor="middle" font-size="22" fill="#ffd54a" font-weight="700">SENIOR</text>
+    <!-- head -->
+    <circle cx="0" cy="0" r="78" fill="#f2c39b" stroke="#1a1a1a" stroke-width="5"/>
+    <path d="M-78 -10 C-90 -90, 60 -120, 80 -20 C60 -60, 20 -50, 0 -60 C-20 -40, -60 -50, -78 -10Z" fill="#5a3a22" stroke="#1a1a1a" stroke-width="5"/>
+    <!-- sunglasses -->
+    <rect x="-62" y="-8" width="54" height="34" rx="10" fill="#111"/>
+    <rect x="8" y="-8" width="54" height="34" rx="10" fill="#111"/>
+    <rect x="-10" y="0" width="20" height="6" fill="#111"/>
+    <path d="M-52 -2 l18 0" stroke="#fff" stroke-width="4" opacity="0.6"/>
+    <path d="M18 -2 l18 0" stroke="#fff" stroke-width="4" opacity="0.6"/>
+    <!-- smirk -->
+    <path d="M-20 48 Q10 62 36 38" stroke="#1a1a1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- speech bubble -->
+  <g>
+    <path d="M70 60 h400 a30 30 0 0 1 30 30 v70 a30 30 0 0 1 -30 30 h-180 l-40 40 l5 -40 h-185 a30 30 0 0 1 -30 -30 v-70 a30 30 0 0 1 30 -30z" fill="#fff" stroke="#1a1a1a" stroke-width="5"/>
+    <text x="270" y="122" text-anchor="middle" font-size="30" font-weight="700" fill="#1a1a1a">"I understand my code."</text>
+    <text x="270" y="160" text-anchor="middle" font-size="22" fill="#444">That's what matters.</text>
+  </g>
+</svg>

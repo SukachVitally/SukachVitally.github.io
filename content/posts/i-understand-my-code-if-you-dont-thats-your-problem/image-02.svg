@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Chalkboard SE','Comic Sans MS','Marker Felt',sans-serif">
+  <rect width="1200" height="800" fill="#a8d5e8"/>
+  <rect y="120" width="1200" height="680" fill="#86b85a"/>
+
+  <!-- maze (top-down, tilted) -->
+  <g transform="translate(600 150) scale(1 0.55)">
+    <rect x="-470" y="-120" width="940" height="560" fill="#c9b27c" stroke="#1a1a1a" stroke-width="6"/>
+    <g stroke="#2f6b2a" stroke-width="34" stroke-linecap="square" fill="none">
+      <path d="M-470 -120 H470 V440 H40 M-40 440 H-470 V-120"/>
+      <path d="M-380 -40 H-120 V60 H-300 V200 H-160"/>
+      <path d="M-40 -120 V20 H120 V-40 H380"/>
+      <path d="M380 -40 V120 H220 V220 H380 V340 H140"/>
+      <path d="M-380 300 H-60 V140 H60 V300"/>
+      <path d="M-220 360 V440 M60 300 H140 V120"/>
+      <path d="M-380 120 H-300 M220 40 V-40"/>
+    </g>
+  </g>
+  <!-- labels on maze -->
+  <g font-family="Menlo,monospace" font-weight="700" font-size="20">
+    <rect x="440" y="62" width="320" height="44" rx="8" fill="#1a1a1a"/>
+    <text x="600" y="92" text-anchor="middle" fill="#7ee787">placeBet()</text>
+  </g>
+  <g font-family="Menlo,monospace" font-size="18" fill="#fff" font-weight="700">
+    <text x="260" y="200" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">if</text>
+    <text x="430" y="250" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">else if</text>
+    <text x="700" y="170" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">&amp;&amp;</text>
+    <text x="860" y="230" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">for</text>
+    <text x="560" y="300" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">||</text>
+    <text x="780" y="330" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">catch</text>
+    <text x="300" y="330" stroke="#1a1a1a" stroke-width="4" paint-order="stroke">? :</text>
+  </g>
+
+  <!-- skeleton of a previous dev -->
+  <g transform="translate(940 280)">
+    <circle r="16" fill="#f4f1e6" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="-5" cy="-2" r="4" fill="#1a1a1a"/>
+    <circle cx="6" cy="-2" r="4" fill="#1a1a1a"/>
+    <path d="M0 16 v30 M-14 26 h28 M-12 34 h24 M0 46 l-12 20 M0 46 l12 20" stroke="#f4f1e6" stroke-width="5" stroke-linecap="round"/>
+    <rect x="20" y="-34" width="120" height="34" rx="4" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="80" y="-11" text-anchor="middle" font-size="15" fill="#1a1a1a">contractor, 2023</text>
+  </g>
+
+  <!-- signpost -->
+  <g transform="translate(240 520)">
+    <rect x="-6" y="-40" width="12" height="150" fill="#6b4329" stroke="#1a1a1a" stroke-width="3"/>
+    <path d="M0 -40 h150 l24 22 l-24 22 h-150z" fill="#f4e7c5" stroke="#1a1a1a" stroke-width="4"/>
+    <text x="80" y="-11" text-anchor="middle" font-size="18" fill="#1a1a1a">exit? maybe</text>
+    <path d="M0 14 h-150 l-24 22 l24 22 h150z" fill="#f4e7c5" stroke="#1a1a1a" stroke-width="4"/>
+    <text x="-80" y="43" text-anchor="middle" font-size="18" fill="#1a1a1a">also exit?</text>
+  </g>
+
+  <!-- junior -->
+  <g transform="translate(640 600)">
+    <path d="M-70 200 C-70 90, -40 50, 0 50 C40 50, 70 90, 70 200Z" fill="#3fa36b" stroke="#1a1a1a" stroke-width="5"/>
+    <rect x="-90" y="70" width="40" height="80" rx="12" fill="#c46a2c" stroke="#1a1a1a" stroke-width="4"/>
+    <circle r="56" fill="#e8b88f" stroke="#1a1a1a" stroke-width="5"/>
+    <path d="M-56 -8 C-60 -70, 50 -80, 56 -12 C30 -40, -30 -40, -56 -8Z" fill="#e0a23a" stroke="#1a1a1a" stroke-width="5"/>
+    <circle cx="-20" cy="2" r="13" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="20" cy="2" r="13" fill="#fff" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="-17" cy="-1" r="5" fill="#1a1a1a"/>
+    <circle cx="23" cy="-1" r="5" fill="#1a1a1a"/>
+    <path d="M-12 32 q12 -8 24 0" stroke="#1a1a1a" stroke-width="4" fill="none"/>
+    <path d="M42 -30 q6 12 0 20 q-6 -8 0 -20z" fill="#6ec1ff" stroke="#1a1a1a" stroke-width="2"/>
+    <!-- ticket in hand -->
+    <g transform="translate(80 40) rotate(8)">
+      <rect width="250" height="120" rx="8" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
+      <rect width="250" height="30" rx="8" fill="#2684ff"/>
+      <text x="12" y="22" font-size="17" fill="#fff" font-weight="700">TICKET-4521</text>
+      <text x="34" y="60" font-size="18" fill="#1a1a1a">Add ONE condition</text>
+      <text x="34" y="88" font-size="16" fill="#555">Estimate: 1 point</text>
+      <text x="34" y="110" font-size="14" fill="#b3261e">"should be quick" — Timofei</text>
+    </g>
+    <circle cx="78" cy="70" r="16" fill="#e8b88f" stroke="#1a1a1a" stroke-width="4"/>
+  </g>
+</svg>

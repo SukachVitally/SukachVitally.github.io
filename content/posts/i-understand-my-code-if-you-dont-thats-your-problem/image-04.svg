@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Chalkboard SE','Comic Sans MS','Marker Felt',sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#3b5d7a"/>
+      <stop offset="1" stop-color="#0c111c"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+
+  <!-- wall clock -->
+  <g transform="translate(150 140)">
+    <circle r="80" fill="#f4f1e6" stroke="#1a1a1a" stroke-width="6"/>
+    <text y="-48" text-anchor="middle" font-size="22" fill="#1a1a1a">12</text>
+    <text x="54" y="8" text-anchor="middle" font-size="22" fill="#1a1a1a">3</text>
+    <text y="66" text-anchor="middle" font-size="22" fill="#1a1a1a">6</text>
+    <text x="-54" y="8" text-anchor="middle" font-size="22" fill="#1a1a1a">9</text>
+    <path d="M0 0 V-52 M0 0 H40" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+    <circle r="6" fill="#b3261e"/>
+  </g>
+
+  <!-- alert lights -->
+  <g opacity="0.85">
+    <path d="M1200 0 L900 0 L1200 260z" fill="#b3261e" opacity="0.35"/>
+    <circle cx="1120" cy="60" r="34" fill="#ff3b30" stroke="#1a1a1a" stroke-width="5"/>
+  </g>
+  <rect x="860" y="150" width="300" height="70" rx="10" fill="#b3261e" stroke="#1a1a1a" stroke-width="5"/>
+  <text x="1010" y="196" text-anchor="middle" font-size="30" font-weight="700" fill="#fff">🔥 PROD DOWN 🔥</text>
+
+  <!-- desk + monitor -->
+  <rect x="200" y="600" width="800" height="28" rx="6" fill="#4b3427" stroke="#1a1a1a" stroke-width="4"/>
+  <rect x="380" y="290" width="440" height="290" rx="14" fill="#111" stroke="#1a1a1a" stroke-width="5"/>
+  <rect x="398" y="308" width="404" height="254" rx="6" fill="#16202c"/>
+  <g font-family="Menlo,monospace" font-size="13" fill="#9fb3c8" xml:space="preserve" style="white-space:pre">
+    <text x="410" y="332">  } else if (x &amp;&amp; !y || z) {</text>
+    <text x="410" y="352">    if (flag2) { if (tmp != null) {</text>
+    <text x="410" y="372">      for (Bet b : list2) {</text>
+    <text x="410" y="392">        if (!b.isOk() &amp;&amp; legacy) {</text>
+    <text x="410" y="412">          // TODO: don't touch</text>
+    <text x="410" y="432">          flag3 = !flag3;</text>
+    <text x="410" y="452">        } else if (flag3) {</text>
+    <text x="410" y="472">          return null; // why?</text>
+    <text x="410" y="492">        }}}} else { try {</text>
+    <text x="410" y="512">          magic(x, y, z, flag2);</text>
+    <text x="410" y="532">  // line 287 of 412</text>
+  </g>
+  <rect x="580" y="580" width="40" height="22" fill="#222"/>
+
+  <!-- junior from behind, hair messy -->
+  <g transform="translate(600 690)">
+    <path d="M-130 130 C-130 20, -80 -10, 0 -10 C80 -10, 130 20, 130 130Z" fill="#3fa36b" stroke="#1a1a1a" stroke-width="5"/>
+    <circle cy="-70" r="66" fill="#e0a23a" stroke="#1a1a1a" stroke-width="5"/>
+    <path d="M-40 -130 l-10 -30 M0 -136 l0 -34 M40 -128 l14 -28 M-62 -100 l-26 -14 M62 -100 l26 -14" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-150" cy="-30" r="26" fill="#e8b88f" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="150" cy="-30" r="26" fill="#e8b88f" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M-150 -4 L-110 40 M150 -4 L110 40" stroke="#3fa36b" stroke-width="30" stroke-linecap="round"/>
+  </g>
+
+  <!-- phone with OOO -->
+  <g transform="translate(880 330) rotate(8)">
+    <rect width="220" height="330" rx="26" fill="#222" stroke="#1a1a1a" stroke-width="5"/>
+    <rect x="12" y="30" width="196" height="270" rx="10" fill="#eef3f8"/>
+    <text x="110" y="64" text-anchor="middle" font-size="16" fill="#555">Timofei</text>
+    <text x="110" y="84" text-anchor="middle" font-size="12" fill="#888">auto-reply</text>
+    <rect x="24" y="100" width="172" height="180" rx="14" fill="#fff" stroke="#c9d1e6" stroke-width="2"/>
+    <text x="36" y="130" font-size="17" fill="#1a1a1a">🌴 Out of office</text>
+    <text x="36" y="160" font-size="15" fill="#1a1a1a">until the 14th.</text>
+    <text x="36" y="196" font-size="15" fill="#1a1a1a">Just read the</text>
+    <text x="36" y="218" font-size="15" fill="#1a1a1a">code. It's self-</text>
+    <text x="36" y="240" font-size="15" fill="#1a1a1a">explanatory.</text>
+    <text x="36" y="266" font-size="15" fill="#1a1a1a">🍹😎</text>
+  </g>
+</svg>

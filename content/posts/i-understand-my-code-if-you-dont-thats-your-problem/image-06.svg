@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Chalkboard SE','Comic Sans MS','Marker Felt',sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10z" fill="#1a1a1a"/>
+    </marker>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#dfe6ef" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f7f9fc"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+
+  <!-- code panel -->
+  <g transform="translate(40 60)">
+    <rect width="460" height="400" rx="14" fill="#1e1f26" stroke="#1a1a1a" stroke-width="4"/>
+    <g font-family="Menlo,monospace" font-size="16" fill="#c9d1d9" xml:space="preserve" style="white-space:pre">
+      <text x="20" y="40"><tspan fill="#ff7b72">String</tspan> betLabel(BetSlip slip) {</text>
+      <text x="20" y="80">  <tspan fill="#ff7b72">if</tspan> (slip.isLive()) {         <tspan fill="#ffd54a">①</tspan></text>
+      <text x="20" y="110">    <tspan fill="#ff7b72">return</tspan> <tspan fill="#a5d6ff">"LIVE"</tspan>;             <tspan fill="#ffd54a">②</tspan></text>
+      <text x="20" y="140">  }</text>
+      <text x="20" y="180">  <tspan fill="#ff7b72">for</tspan> (Bet bet : slip.bets()) { <tspan fill="#ffd54a">③</tspan></text>
+      <text x="20" y="210">    <tspan fill="#ff7b72">if</tspan> (bet.isLongshot()) {   <tspan fill="#ffd54a">④</tspan></text>
+      <text x="20" y="240">      <tspan fill="#ff7b72">return</tspan> <tspan fill="#a5d6ff">"LONGSHOT"</tspan>;       <tspan fill="#ffd54a">⑤</tspan></text>
+      <text x="20" y="270">    }</text>
+      <text x="20" y="300">  }</text>
+      <text x="20" y="340">  <tspan fill="#ff7b72">return</tspan> <tspan fill="#a5d6ff">"STANDARD"</tspan>;           <tspan fill="#ffd54a">⑥</tspan></text>
+      <text x="20" y="370">}                                  <tspan fill="#ffd54a">⑦</tspan></text>
+    </g>
+  </g>
+
+  <!-- formula card -->
+  <g transform="translate(40 500)">
+    <rect width="460" height="250" rx="14" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
+    <text x="24" y="44" font-size="22" font-weight="700" fill="#1a1a1a">Two ways to count, same answer:</text>
+    <text x="24" y="98" font-family="Menlo,monospace" font-size="20" fill="#1a1a1a">M = E − N + 2P</text>
+    <text x="24" y="132" font-family="Menlo,monospace" font-size="20" fill="#0057b7">  = 9 − 7 + 2·1 = 4</text>
+    <text x="24" y="186" font-family="Menlo,monospace" font-size="20" fill="#1a1a1a">M = decisions + 1</text>
+    <text x="24" y="220" font-family="Menlo,monospace" font-size="20" fill="#0057b7">  = 3 + 1 = 4</text>
+  </g>
+
+  <!-- graph edges -->
+  <g fill="none" stroke="#1a1a1a" stroke-width="4" marker-end="url(#arr)">
+    <path d="M776 120 L648 200"/>
+    <path d="M824 120 L896 200"/>
+    <path d="M590 250 C540 450, 640 640, 862 688"/>
+    <path d="M908 264 L842 348"/>
+    <path d="M948 254 L1052 356"/>
+    <path d="M820 414 L820 496"/>
+    <path d="M790 370 C700 330, 770 240, 886 232"/>
+    <path d="M842 562 L882 650"/>
+    <path d="M1068 410 L928 662"/>
+  </g>
+  <g font-size="17" fill="#2e7d32" font-weight="700">
+    <text x="660" y="150">true</text>
+    <text x="870" y="150" fill="#b3261e">false</text>
+    <text x="830" y="460">true</text>
+    <text x="700" y="300" fill="#b3261e">false</text>
+    <text x="886" y="318">next</text>
+    <text x="1010" y="290" fill="#b3261e">done</text>
+  </g>
+
+  <!-- graph nodes -->
+  <g font-size="26" font-weight="700" text-anchor="middle" stroke="#1a1a1a" stroke-width="4">
+    <circle cx="800" cy="90" r="36" fill="#ffd54a"/>
+    <circle cx="620" cy="230" r="36" fill="#9bd3ae"/>
+    <circle cx="920" cy="230" r="36" fill="#ffd54a"/>
+    <circle cx="820" cy="380" r="36" fill="#ffd54a"/>
+    <circle cx="1080" cy="380" r="36" fill="#9bd3ae"/>
+    <circle cx="820" cy="530" r="36" fill="#9bd3ae"/>
+    <circle cx="900" cy="690" r="36" fill="#c9d1e6"/>
+  </g>
+  <g font-size="26" font-weight="700" text-anchor="middle" fill="#1a1a1a">
+    <text x="800" y="99">1</text>
+    <text x="620" y="239">2</text>
+    <text x="920" y="239">3</text>
+    <text x="820" y="389">4</text>
+    <text x="1080" y="389">6</text>
+    <text x="820" y="539">5</text>
+    <text x="900" y="699">7</text>
+  </g>
+  <g font-size="16" fill="#444">
+    <text x="846" y="76">isLive?</text>
+    <text x="966" y="224">has next bet?</text>
+    <text x="700" y="410">isLongshot?</text>
+    <text x="1092" y="446">STANDARD</text>
+    <text x="700" y="560">LONGSHOT</text>
+    <text x="512" y="186">LIVE</text>
+    <text x="946" y="720">exit</text>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(1050 600)" font-size="16" fill="#1a1a1a">
+    <circle cx="10" cy="0" r="10" fill="#ffd54a" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="30" y="6">decision</text>
+    <circle cx="10" cy="34" r="10" fill="#9bd3ae" stroke="#1a1a1a" stroke-width="3"/>
+    <text x="30" y="40">statement</text>
+    <text x="0" y="80" font-weight="700">N = 7 nodes</text>
+    <text x="0" y="106" font-weight="700">E = 9 edges</text>
+  </g>
+</svg>

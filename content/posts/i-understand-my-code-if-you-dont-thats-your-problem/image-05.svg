@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Chalkboard SE','Comic Sans MS','Marker Felt',sans-serif">
+  <rect width="1200" height="800" fill="#2b3550"/>
+  <rect y="640" width="1200" height="160" fill="#3a2f2a"/>
+  <rect y="630" width="1200" height="20" fill="#5b4a40"/>
+
+  <!-- desk -->
+  <rect x="520" y="560" width="620" height="26" rx="6" fill="#8a5a3b" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- monitor with blame -->
+  <rect x="640" y="200" width="460" height="330" rx="14" fill="#111" stroke="#1a1a1a" stroke-width="5"/>
+  <rect x="658" y="218" width="424" height="294" rx="6" fill="#1e1f26"/>
+  <g font-family="Menlo,monospace" font-size="14" fill="#c9d1d9" xml:space="preserve" style="white-space:pre">
+    <text x="670" y="246">if (a &amp;&amp; (b || !c) &amp;&amp; d != null) {</text>
+    <text x="670" y="268">  if (flag3 ? x : !y) {</text>
+    <text x="670" y="290">    tmp2 = magic(tmp, !tmp, 7);</text>
+    <text x="670" y="312">  } else if (legacyMode2) {</text>
+  </g>
+  <!-- blame tooltip -->
+  <g transform="translate(700 340)">
+    <rect width="360" height="140" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
+    <text x="20" y="34" font-family="Menlo,monospace" font-size="16" fill="#555">git blame</text>
+    <circle cx="40" cy="78" r="22" fill="#f2c39b" stroke="#1a1a1a" stroke-width="3"/>
+    <rect x="24" y="72" width="14" height="9" rx="3" fill="#111"/>
+    <rect x="42" y="72" width="14" height="9" rx="3" fill="#111"/>
+    <text x="76" y="76" font-size="22" font-weight="700" fill="#1a1a1a">Timofei</text>
+    <text x="76" y="102" font-size="16" fill="#555">8 months ago</text>
+    <text x="20" y="128" font-family="Menlo,monospace" font-size="15" fill="#0057b7">"small fix, trust me"</text>
+  </g>
+  <path d="M790 340 L780 318" stroke="#1a1a1a" stroke-width="4"/>
+
+  <!-- Timofei, horrified -->
+  <g transform="translate(400 380)">
+    <path d="M-130 300 C-130 150, -90 90, 0 90 C90 90, 130 150, 130 300 Z" fill="#0057b7" stroke="#1a1a1a" stroke-width="5"/>
+    <!-- hands on cheeks -->
+    <circle r="82" fill="#f2c39b" stroke="#1a1a1a" stroke-width="5"/>
+    <path d="M-82 -10 C-94 -94, 62 -124, 84 -20 C62 -62, 20 -52, 0 -62 C-20 -42, -62 -52, -82 -10Z" fill="#5a3a22" stroke="#1a1a1a" stroke-width="5"/>
+    <!-- sunglasses pushed up -->
+    <rect x="-56" y="-78" width="48" height="26" rx="8" fill="#111"/>
+    <rect x="8" y="-78" width="48" height="26" rx="8" fill="#111"/>
+    <rect x="-10" y="-70" width="20" height="6" fill="#111"/>
+    <!-- wide eyes -->
+    <circle cx="-30" cy="-6" r="22" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="30" cy="-6" r="22" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="-24" cy="-6" r="6" fill="#1a1a1a"/>
+    <circle cx="36" cy="-6" r="6" fill="#1a1a1a"/>
+    <!-- screaming mouth -->
+    <ellipse cx="4" cy="48" rx="20" ry="24" fill="#5a1414" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M-80 40 C-110 80, -100 130, -60 140" fill="none" stroke="#0057b7" stroke-width="30" stroke-linecap="round"/>
+    <path d="M80 40 C110 80, 100 130, 60 140" fill="none" stroke="#0057b7" stroke-width="30" stroke-linecap="round"/>
+    <circle cx="-80" cy="34" r="22" fill="#f2c39b" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="80" cy="34" r="22" fill="#f2c39b" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M70 -40 q8 14 0 24 q-8 -10 0 -24z M-74 -30 q8 14 0 24 q-8 -10 0 -24z" fill="#6ec1ff" stroke="#1a1a1a" stroke-width="2"/>
+  </g>
+
+  <!-- shout -->
+  <g transform="translate(60 60)">
+    <path d="M0 40 L40 0 L80 30 L140 -10 L170 30 L240 0 L260 40 L340 20 L330 70 L380 100 L320 130 L340 180 L260 160 L230 200 L180 160 L110 200 L100 150 L20 170 L50 120 L-10 90 L40 70z" fill="#ffd54a" stroke="#1a1a1a" stroke-width="5"/>
+    <text x="180" y="88" text-anchor="middle" font-size="30" font-weight="700" fill="#1a1a1a">WHO WROTE</text>
+    <text x="180" y="126" text-anchor="middle" font-size="30" font-weight="700" fill="#b3261e">THIS?!</text>
+  </g>
+
+  <!-- junior with popcorn -->
+  <g transform="translate(110 560)">
+    <circle r="44" fill="#e8b88f" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M-44 -6 C-48 -56, 40 -64, 44 -10 C24 -32, -24 -32, -44 -6Z" fill="#e0a23a" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M-22 0 q8 -8 16 0 M8 0 q8 -8 16 0" stroke="#1a1a1a" stroke-width="4" fill="none"/>
+    <path d="M-16 20 q16 14 32 0" stroke="#1a1a1a" stroke-width="4" fill="none"/>
+    <path d="M-60 140 C-60 80, -30 50, 0 50 C30 50, 60 80, 60 140Z" fill="#3fa36b" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M40 60 l60 0 l-8 70 l-44 0z" fill="#fff" stroke="#1a1a1a" stroke-width="4"/>
+    <path d="M52 60 v70 M72 60 v70" stroke="#b3261e" stroke-width="7"/>
+    <g fill="#fff6d5" stroke="#1a1a1a" stroke-width="2">
+      <circle cx="50" cy="56" r="9"/><circle cx="66" cy="50" r="10"/><circle cx="84" cy="56" r="9"/><circle cx="76" cy="44" r="8"/>
+    </g>
+  </g>
+</svg>

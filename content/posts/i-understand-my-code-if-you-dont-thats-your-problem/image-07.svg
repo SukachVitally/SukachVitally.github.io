@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Chalkboard SE','Comic Sans MS','Marker Felt',sans-serif">
+  <rect width="1200" height="800" fill="#fbf3e4"/>
+  <text x="600" y="70" text-anchor="middle" font-size="38" font-weight="700" fill="#1a1a1a">The Complexity-O-Meter™</text>
+
+  <!-- gauge -->
+  <g fill="none" stroke-width="110">
+    <path d="M280 600 A320 320 0 0 1 373.7 373.7" stroke="#4caf50"/>
+    <path d="M373.7 373.7 A320 320 0 0 1 600 280" stroke="#ffd54a"/>
+    <path d="M600 280 A320 320 0 0 1 826.3 373.7" stroke="#ff9800"/>
+    <path d="M826.3 373.7 A320 320 0 0 1 920 600" stroke="#e53935"/>
+  </g>
+  <path d="M225 600 A375 375 0 0 1 975 600" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+  <path d="M335 600 A265 265 0 0 1 865 600" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+  <path d="M225 600 H335 M865 600 H975" stroke="#1a1a1a" stroke-width="5"/>
+  <g stroke="#1a1a1a" stroke-width="5">
+    <path d="M334.8 334.8 L412.6 412.6"/>
+    <path d="M600 225 V335"/>
+    <path d="M865.2 334.8 L787.4 412.6"/>
+  </g>
+
+  <!-- zone labels -->
+  <g font-size="26" font-weight="700" text-anchor="middle" fill="#1a1a1a">
+    <text transform="translate(304 478) rotate(-67.5)" y="9">chill</text>
+    <text transform="translate(478 304) rotate(-22.5)" y="9">careful</text>
+    <text transform="translate(722 304) rotate(22.5)" y="9">risky</text>
+    <text transform="translate(896 478) rotate(67.5)" y="9" fill="#fff">nope</text>
+  </g>
+  <g font-size="24" font-weight="700" text-anchor="middle" fill="#555">
+    <text x="196" y="608">1</text>
+    <text x="305" y="300">10</text>
+    <text x="600" y="210">20</text>
+    <text x="900" y="300">50</text>
+    <text x="1010" y="608">∞</text>
+  </g>
+
+  <!-- needle at 47 -->
+  <path d="M600 600 L788 380" stroke="#1a1a1a" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="600" cy="600" r="30" fill="#1a1a1a"/>
+  <circle cx="600" cy="600" r="12" fill="#ffd54a"/>
+
+  <!-- sticky note -->
+  <g transform="translate(900 120) rotate(6)">
+    <rect width="250" height="130" fill="#fff59d" stroke="#1a1a1a" stroke-width="4"/>
+    <text x="125" y="44" text-anchor="middle" font-family="Menlo,monospace" font-size="17" fill="#1a1a1a">placeBet()</text>
+    <text x="125" y="92" text-anchor="middle" font-size="40" font-weight="700" fill="#b3261e">CC = 47</text>
+  </g>
+
+  <!-- legend row -->
+  <g font-size="20" fill="#1a1a1a" text-anchor="middle">
+    <g transform="translate(180 700)">
+      <rect x="-110" y="-34" width="220" height="80" rx="14" fill="#4caf50" stroke="#1a1a1a" stroke-width="4"/>
+      <text y="-4" font-weight="700">1 – 10</text>
+      <text y="26" font-size="17">simple, testable</text>
+    </g>
+    <g transform="translate(460 700)">
+      <rect x="-110" y="-34" width="220" height="80" rx="14" fill="#ffd54a" stroke="#1a1a1a" stroke-width="4"/>
+      <text y="-4" font-weight="700">11 – 20</text>
+      <text y="26" font-size="17">moderate risk</text>
+    </g>
+    <g transform="translate(740 700)">
+      <rect x="-110" y="-34" width="220" height="80" rx="14" fill="#ff9800" stroke="#1a1a1a" stroke-width="4"/>
+      <text y="-4" font-weight="700">21 – 50</text>
+      <text y="26" font-size="17">high risk</text>
+    </g>
+    <g transform="translate(1020 700)">
+      <rect x="-110" y="-34" width="220" height="80" rx="14" fill="#e53935" stroke="#1a1a1a" stroke-width="4"/>
+      <text y="-4" font-weight="700" fill="#fff">50+</text>
+      <text y="26" font-size="17" fill="#fff">untestable</text>
+    </g>
+  </g>
+</svg>
