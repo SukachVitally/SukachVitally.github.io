@@ -10,7 +10,7 @@ tags: ["java", "clean-code", "refactoring", "testing", "code-quality"]
 
 ![Timofei in sunglasses next to a monitor full of spaghetti, saying "I understand my code."](image-01.jpg)
 
-### Chapter 1: The Genius
+### Chapter 1: The Untouchable
 
 Every team has a Timofei.
 
@@ -22,7 +22,13 @@ When someone asks how it works, Timofei leans back, crosses his arms and says th
 
 > "I understand my code. If you don't, that's your problem."
 
-And honestly? He's right. He does understand it. It works. It's been in production for two years. What could possibly go wrong?
+And honestly? He's right. He does understand it. It works. It's been in production for two years.
+
+And here's the genius part. Nobody else understands `placeBet()`, so nobody can replace Timofei. Every time management talks about budget cuts, somebody asks "but who will support the betting engine?", and Timofei's name quietly disappears from the list. He doesn't need a performance review. He has 412 lines of job security.
+
+That's the whole career strategy, and it's simple: write code that only you can read, and they can never fire you.
+
+What could possibly go wrong?
 
 ### Chapter 2: The New Guy
 
