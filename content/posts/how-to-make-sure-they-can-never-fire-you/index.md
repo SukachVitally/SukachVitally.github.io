@@ -3,10 +3,11 @@ title: "How to Make Sure They Can Never Fire You"
 date: 2026-10-29T10:00:00+00:00
 url: "/posts/how-to-make-sure-they-can-never-fire-you/"
 draft: false
-tags: ["java", "clean-code", "refactoring", "testing", "code-quality"]
+tags: ["java", "clean-code", "refactoring", "testing", "code-quality", "career"]
+summary: "Unreadable code is job security, right? A funny story about Timofei, a 412-line method, and how to count the tests your code needs."
 ---
 
-*A short story about Timofei. You've worked with Timofei. There's a chance you are Timofei.*
+*A short story about Timofei, job security, and cyclomatic complexity. You've worked with Timofei. There's a chance you are Timofei.*
 
 ![Timofei in sunglasses next to a monitor full of spaghetti, saying "I understand my code."](image-01.jpg)
 
@@ -78,6 +79,8 @@ Tom fixes it at 6:40 AM by adding another `if`. The method now has 413 lines. Th
 
 That's how these methods grow. Nobody sits down and writes a monster on purpose. It grows one `if` per incident.
 
+That Monday, the word "Timofei" appeared in a management meeting for the first time. Not in the budget cuts list. In the risks list.
+
 ### Chapter 5: Who Wrote This?!
 
 ![Timofei screaming "WHO WROTE THIS?!" at a git blame tooltip that says "Timofei, 8 months ago, small fix, trust me", while the junior eats popcorn](image-05.jpg)
@@ -94,11 +97,13 @@ He clicks *git blame*.
 
 Tom eats popcorn very quietly.
 
+So much for job security. The one person who could never be replaced couldn't read his own code either. It turns out that if nobody can maintain your code, neither can you.
+
 This is the part of the story that I like the most, because it's the part everybody has lived through. "I understand my code" has an expiration date. For most people it's about three weeks. After that, your own code is written by a stranger who had context you no longer have. Timofei wasn't writing code for "people who don't get it". He was writing code for nobody, including future Timofei.
 
 So what was actually wrong with `placeBet()`? It wasn't the length, exactly. You can have a 400-line method that's boring and fine (a long list of field mappings, for example). It wasn't the naming, although `flag2` didn't help.
 
-The problem was the number of different ways to go through it. And that number has a name, a formula, and a tool that will happily scream at Timofei in CI.
+The problem was the number of different ways to go through it. That number is what turned Timofei's job security into everyone's 3 AM. It has a name, a formula, and a tool that will happily scream at Timofei in CI.
 
 It's called **cyclomatic complexity**.
 
@@ -504,6 +509,8 @@ Timofei reviewed it. He said "looks fine", and then, after a pause, "that's actu
 
 He still says "I understand my code". He just added a second part: "...and so does the build".
 
+Funny thing: nobody worries about replacing Timofei anymore, and nobody wants to. He's the person who made `placeBet()` easy enough for a junior to change in his second week. That's the real way to make sure they never fire you. Not by being the only one who understands the code, but by being the one who made everyone else understand it.
+
 ### Quick checklist
 
 - Do you know the CC of the five methods that cause the most incidents? (They're probably the same five.)
@@ -512,3 +519,4 @@ He still says "I understand my code". He just added a second part: "...and so do
 - Do you have `if/else if` chains on an enum or a type field that could be polymorphism or a `Map`?
 - Is the same business rule (age checks, VIP checks, live fees) copy-pasted into several branches?
 - When you write "I understand this", would you still understand it in three weeks, at 3 AM, without your sunglasses?
+- Is your job security based on code nobody else can read? Then it's not job security, it's a hostage situation.
