@@ -73,7 +73,7 @@ HikariPool-1 - Connection is not available, request timed out after 30000ms (tot
 
 Meanwhile, `pg_stat_activity` shows your ten connections as `idle`. The database isn't slow. It's waiting for you.
 
-![Request timeline: with Open Session in View the connection is held from the first query until the response is written, without it only during the service call](diagram-osiv.svg)
+![Request timeline: with Open Session in View the connection is held from the first query until the response is written, without it only during the service call](diagram-osiv.jpg)
 
 **The fix:** turn it off, and load everything the response needs inside the service:
 
@@ -290,7 +290,7 @@ This is the behavior up to Hibernate 7.3. Starting with 7.4, the docs say the li
 
 With 50,000 open orders and 10 items each, page 1 of 20 orders loads **500,000 rows**. They go over the network, Hibernate hydrates 550,000 entities into the persistence context, keeps 20 orders, and throws the rest away. Page 2 costs exactly the same. In dev, with 30 orders, it's instant.
 
-![The database returns 500,000 rows, Hibernate builds every entity and keeps 20 for the page](diagram-pagination.svg)
+![The database returns 500,000 rows, Hibernate builds every entity and keeps 20 for the page](diagram-pagination.jpg)
 
 **The fix:** page the IDs, then fetch the entities by ID.
 
@@ -385,7 +385,7 @@ delete from orders where id=?
 
 For 10,000 orders with 10 items each, that adds up fast:
 
-![deleteByCreatedAtBefore runs 120,001 statements: 1 select of orders, 10,000 selects of items, 100,000 item deletes and 10,000 order deletes, while two bulk deletes run 2](diagram-delete.svg)
+![deleteByCreatedAtBefore runs 120,001 statements: 1 select of orders, 10,000 selects of items, 100,000 item deletes and 10,000 order deletes, while two bulk deletes run 2](diagram-delete.jpg)
 
 Plus 110,000 managed entities in memory, plus every `@PreRemove` callback, plus an Envers audit row per deleted entity if you use Envers. Setting `hibernate.jdbc.batch_size` groups the deletes into fewer round trips, but the selects, the memory and the statement count stay the same. And on the Postgres side you now have 110,000 dead tuples to vacuum. [Your DELETE + INSERT Is Burning PostgreSQL's CPU](/posts/your-delete-insert-is-burning-postgresqls-cpu-here-s-what-s-actually-happening-on-the-page/) shows what that does on the page.
 
