@@ -4,6 +4,7 @@ date: 2026-11-07T10:00:00+00:00
 url: "/posts/5-jpa-hibernate-mistakes-that-quietly-kill-your-spring-boot-performance/"
 draft: false
 tags: ["jpa", "hibernate", "spring-boot", "spring-data-jpa", "java", "performance"]
+images: ["image-01.jpg"]
 summary: "Open Session in View, EAGER to-ones, in-memory pagination, deleteBy and read-only entities: 5 JPA defaults that only hurt with real data."
 ---
 
